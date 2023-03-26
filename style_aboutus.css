@@ -1,0 +1,102 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: boder-box;
+}
+
+
+    .menu-bar
+{
+    background: blue;
+    text-align: center;
+}
+    .menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: orange;
+}
+.menu-bar ul li
+{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover
+{
+    background: orange;
+    border-radius: 2px;
+}
+
+div.gallery {
+    margin: 20px;
+    border: 5px solid blue;
+    float: left;
+    width: 350x;
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+    
+  }
+  
+  div.gallery img {
+    width: 350;
+    height: 250;
+  }
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+  /*
+  .glow {
+    font-size: 35px;
+    color:blue;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px orange, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px b;
+    }
+    
+    to {
+      text-shadow: 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange, 0 0 80px orange;
+    }
+  }
+*/
+  
+h1{ 
+  animation: type 6s steps(33);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Georgia;
+  text-decoration-color: blue;
+  border-right: 4px solid white;
+  width: 33ch;
+  color: blue;
+
+}
+
+p {outline-color:blue;}
+p.dashed {outline-style: dashed;outline-width: 80;}
+
+@keyframes type{
+
+  0%{
+    width: 0ch;
+  }
+  100% {
+    width: 40ch;
+  }
+  
+}

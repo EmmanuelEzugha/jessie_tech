@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style2_contactus.css">
+    <script src="main_contactus.js"></script>
+
+    <!-- font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+<br/>
+
+    <div
+    div class="menu-bar"> 
+    <ul>
+    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> <b>Home</b></a></li>
+    <li><a href="aboutus.html"><i class="fa fa-address-card" aria-hidden="true"></i> <b>About Us</b></a></li>
+    <li class="active"><a href= "contactus.html"><i class="fa fa-address-card" aria-hidden="true"></i> <b>Contact Us</b></a></li>
+    <li><a href="services.html"><i class="fa fa-cogs" aria-hidden="true"></i> <b>Services</b></a></li></li>
+    <li><a href="requestaquote.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <b>Request a quote</b></a></li>
+    <li><a href="support.html"><i class="fa fa-hand-o-up" aria-hidden="true"></i> <b>Support</b></a></li>
+</div>
+
+<div class="container">
+    <div class="box"><br><br>
+       <b> <h4>Side Hustle Week 3 Task</h4></b>
+        <div class="name">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Name" id="name">
+        </div>
+        <div class="phone">
+            <i class="fas fa-user"></i>
+            <input type="number" placeholder="Phone Number" id="phone">
+        </div>
+
+        <div class="gender">
+            <i class="fas fa-user"></i>
+            <input type="gender" placeholder="Gender" id="gender">
+        </div>
+
+        <div class="email">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" id="email"name="email" required>
+        </div>
+        <div class="message-box">
+            <textarea id="msg" cols="30" rows="10" placeholder="Please give feed back, we value your feedback"></textarea>
+        </div>
+        <div class="button">
+            <button id="send" onclick="message()">Submit Form</button>
+        </div>
+        <div class="message">
+            <div class="success" id="success">Your Message Successfully Sent!</div>
+            <div class="danger" id="danger">Feilds Can't be Empty!</div>
+        </div>
+    </div>
+</div>
+
+ 
+
+
+</body>
+</html>
